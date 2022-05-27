@@ -61,7 +61,7 @@
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/teletipsalltestings/PingAllBot-TeLeTiPs)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/teletips/PingAllBot-TeLeTiPs)
     
     
 ## ⭐️ Credits
@@ -84,6 +84,6 @@
 
 ## ⚖️ License
   
-Ping All is licensed under the [GNU Affero General Public License v3.0](https://github.com/teletips/CountdownTimer-TeLeTiPs/blob/main/LICENSE)
+Ping All is licensed under the [GNU Affero General Public License v3.0](https://github.com/teletips/PingAllBot-TeLeTiPs/blob/main/LICENSE)
 
 Copyright ©️ 2022 TeLe TiPs. All Rights Reserved
