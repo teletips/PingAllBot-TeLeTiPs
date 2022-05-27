@@ -37,7 +37,7 @@ async def everyone(client, message):
         await message.reply("⛔️ | I'm already working on my maximum number of 5 chats at the moment. Please try again shortly.")
       else:  
         if message.chat.id in chatQueue:
-          await message.reply("🚫 | There's already an ongoing process in this chat. Please /stop_process to start a new one.")
+          await message.reply("🚫 | There's already an ongoing process in this chat. Please /stop to start a new one.")
         else:  
           chatQueue.append(message.chat.id)
           if len(message.command) > 1:
@@ -107,7 +107,7 @@ async def remove(client, message):
           await message.reply("⛔️ | I'm already working on my maximum number of 5 chats at the moment. Please try again shortly.")
         else:  
           if message.chat.id in chatQueue:
-            await message.reply("🚫 | There's already an ongoing process in this chat. Please /stop_process to start a new one.")
+            await message.reply("🚫 | There's already an ongoing process in this chat. Please /stop to start a new one.")
           else:  
             chatQueue.append(message.chat.id)  
             deletedList = []
@@ -134,10 +134,10 @@ async def remove(client, message):
                 k+=1
                 await asyncio.sleep(10)
               if k == lenDeletedList:  
-                await message.reply(f"✅ | Successfully removed all deleted accounts in this chat.")  
+                await message.reply(f"✅ | Successfully removed all deleted accounts from this chat.")  
                 await temp.delete()
               else:
-                await message.reply(f"✅ | Successfully removed {k} deleted accounts in this chat.")  
+                await message.reply(f"✅ | Successfully removed {k} deleted accounts from this chat.")  
                 await temp.delete()  
               chatQueue.remove(message.chat.id)
     else:
