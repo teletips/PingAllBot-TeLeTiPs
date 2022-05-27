@@ -19,7 +19,7 @@
 
 
 <h1 align="center">
-    <img src="https://telegra.ph/file/fd3d0cffbabc214043e0d.jpg" alt="PingAll Bot logo" width="200">
+    <img src="pingallbotic.png" alt="PingAll Bot logo" width="200">
     <br>
     Ping All Bot
 </h1>
