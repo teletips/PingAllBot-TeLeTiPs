@@ -59,7 +59,7 @@ async def everyone(client, message):
             j = 0
             text1 = f"{inputText}\n\n"
             try:    
-              while j < 12:
+              while j < 10:
                 user = membersList.pop(0)
                 if user.username == None:
                   text1 += f"{user.mention} "
@@ -72,7 +72,7 @@ async def everyone(client, message):
               except Exception:
                 pass  
               await asyncio.sleep(10) 
-              i+=12
+              i+=10
             except IndexError:
               try:
                 await teletips.send_message(message.chat.id, text1)  
