@@ -1,0 +1,39 @@
+{
+    "name": "PingAllBot-TeLeTiPs",
+    "description": "Powerful Telegram bot to get everyone's attention by mentioning all members in the chat. PingAll bot have some additional cool features and also it can work in channels. It's easy, fast and self deployable.",
+    "repository": "https://github.com/teletips/CountdownTimer-TeLeTiPs",
+    "logo": "https://telegra.ph/file/fd3d0cffbabc214043e0d.jpg",
+    "keywords": [
+        "ping all bot",
+        "mention all bot",
+        "notify all bot",
+        "everyone bot",
+        "Telegram bot",
+        "Pyrogram bot"
+    ],
+    "env": {
+        "API_ID": {
+            "description": "Get from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get from my.telegram.org/apps",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Get from Telegram's @BotFather",
+            "required": true
+        }
+    },
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
