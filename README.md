@@ -19,7 +19,7 @@
 
 
 <h1 align="center">
-    <img src="pingallbotic.png" alt="PingAll Bot logo" width="200">
+    <img src="pingallboticon.png" alt="PingAll Bot logo" width="200">
     <br>
     Ping All Bot
 </h1>
