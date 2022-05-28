@@ -254,7 +254,7 @@ Hey, let's have a quick look at my commands.
 - /ping "input": <i>Mention all members.</i>
 - /remove: <i>Remove all deleted accounts.</i>
 - /admins: <i>Mention all admins.</i>
-- /bot: <i>Get the full bot list.</i>
+- /bots: <i>Get the full bot list.</i>
 - /stop: <i>Stop an on going process.</i>
 
 If you have any questions on how to use me, feel free to ask in my [support group](https://t.me/teletipsofficialontopicchat). More on my [page](https://github.com/teletips/PingAllBot-TeLeTiPs).
