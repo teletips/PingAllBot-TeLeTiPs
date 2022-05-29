@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY requirements.txt /app/
 
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
-COPY . /app/
+COPY . /app
 
-CMD python pingallbot.py
+CMD python3 getanyid.py
