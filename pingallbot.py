@@ -238,7 +238,7 @@ My name is **PingAll**. I'm here to help you to get everyone's attention by ment
 
 I have some additional cool features and also I can work in channels.
 
-Don't forget to join my [channel](http://t.me/teletipsofficialchannel) to recieve information on all the latest updates.
+Don't forget to join my [channel](http://t.me/Samilbots) to recieve information on all the latest updates.
 
 Hit /help to find out my commands and the use of them.
 '''
@@ -257,7 +257,7 @@ Hey, let's have a quick look at my commands.
 - /bots: <i>Get the full bot list.</i>
 - /stop: <i>Stop an on going process.</i>
 
-If you have any questions on how to use me, feel free to ask in my [support group](https://t.me/teletipsofficialontopicchat). More on my [page](https://github.com/teletips/PingAllBot-TeLeTiPs).
+If you have any questions on how to use me, feel free to ask in my [support group](https://t.me/teletipsofficialontopicchat). More on my [Owner](https://t.me/Samilben).
 '''
   await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
 
